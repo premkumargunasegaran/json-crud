@@ -13,12 +13,12 @@ function App() {
       <ToastContainer />
 
       <div className="main">
-        <h2 className="main-header">React Crud Operations</h2>
+        <h2 className="main-header">React Crud Operations using json</h2>
         <BrowserRouter>
           <Routes>
-          <Route path="/" element={<Read />} />
+            <Route path="/" element={<Read />} />
             <Route path="/create" element={<Create />} />
-            
+
             <Route path="/update" element={<Update />} />
           </Routes>
         </BrowserRouter>
